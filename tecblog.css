@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', serif;
+    background-color: #ccc;
+}
+
+/* |||||||||||| Formatação Cabeçalho ||||||||||| */
+
+#container-topo{
+    width: 920px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+
+
+#topo{
+    background-color: #f2b00f;
+    padding: 10px;
+    border-bottom: 10px solid #4e4e4e;
+}
+
+#logo a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #ffff;
+    letter-spacing: 0.1em;
+}
+
+#logo a:visited, #topo a:link{
+    color: #ffff;
+}
+
+#logo a:hover{
+    color: #4e4e4e;
+    border-bottom: 1px solid #4e4e4e;   
+}
+
+/* |||||||||||| Formatação barra de pesquisa ||||||||||| */
+
+#topo input{
+    margin-top: 18px;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 11px;
+    width: 44%;
+    position: relative;
+    left: 16px;
+    background: transparent;
+    outline: none;
+}
+
+.btn{
+    background-color: #fff;
+    border-radius: 11px;
+    border: none;
+    padding: 6px;
+    position: relative;
+    right: 21px;
+}
+
+button{
+    position: relative;
+    top: 4px;
+    right: 10px;
+}
+
+.btn:hover{
+    border: 3px solid #fff;
+    cursor: pointer;
+}
+
+/* |||||||||||| Formatação da página ||||||||||| */
+
+
+#container-postagens{
+    width: 650px;
+    float: left;
+}
+
+.postagens{
+    background: #fff;
+    margin-bottom: 15px;
+    box-shadow: 2px 5px 5px #4e4e4e;
+}
+
+.postagens p{
+    padding: 10px;
+}
+.postagens img{
+    padding-left: 3%;
+    width: 620px;   
+}
+
+#container-corpo{
+    width: 920px;
+    margin: 10px auto;
+}
+/* |||||||||||| Formatação Lateral ||||||||||| */
+
+#container-lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagens-lateral{
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 2px 4px 4px #4e4e4e;
+    float: left;
+    width: 240px;
+}
+
+.postagens-lateral input#email  {
+    padding: 5px;
+    outline: none;
+    border: 1px solid #4e4e4e;
+    width: 80%;
+}
+
+.postagens-lateral button{
+    position: relative;
+    left: 5px;
+    top: 6px;
+    padding-left: 3px;
+    cursor: pointer;
+    border: none;
+}
+
+button.news-btn i{
+    font-size: 29px;
+}
+
+button.news-btn i:hover{
+    color: #f2b00f;
+}
+
+.postagens-lateral h3{
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #f2b00f;
+    border-bottom: 1px solid #ccc;  
+}
+
+/* |||||||||||| Formatação Lateral (Redes Sociais) ||||||||||| */
+
+.postagens-lateral ul{
+    list-style-type: none;
+}
+
+.postagens-lateral ul li{
+    float: left;
+}
+
+.postagens-lateral ul li a{
+    padding: 12px;
+}
+
+ul#redes-sociais{
+    padding: 10px;
+    padding-left: 30px;
+    
+}
+
+.postagens-lateral ul#redes-sociais a{
+    color: #4e4e4e;
+}
+
+.postagens-lateral ul#redes-sociais a:hover{
+    color: #f2b00f;
+}
+
+.face, .insta, .twitter, .linkedin{
+    font-size: 25px;
+}
+
+/* |||||||||||| Formatação rodapé ||||||||||| */
+
+#container-rodape{
+    padding: 5px;
+    margin: auto;
+    clear: both;
+    border-top: 5px solid #4e4e4e;
+    background-color: #4e4e4e;
+}
+
+#rodape{
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* |||||||||||| Formatação geral ||||||||||| */
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    padding-bottom: 20px;
+}
+
+.branco{
+    color: #f2f2f2;
+}
+
+.titulo{
+    display: block;
+    padding: 15px;
+}
+
+.titulo h2{
+    color: #f2b00f;
+}
+
+.titulo p{
+    font-size: 0.9em;
+    border-bottom: 1px solid #ccc;
+}
